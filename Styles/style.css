@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* offer */
+.offer-container{
+    background: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-container>h2{
+    font-size: 14px;
+    text-align: center;
+}
+/* nav */
+.nav-lg{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+.logo-lg{
+    text-align: center;
+    /* color: gray; */
+    letter-spacing: 10px;
+    
+}
